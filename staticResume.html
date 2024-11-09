@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="staticStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div id="mainDiv">
+
+      <!-- Personal Information -->
+      <section>
+        <div class="personal">
+          <div>
+            <h1><span id="name">Sakina Bano</span></h1>
+            <h2><span id="jobTitle">Software Developer</span></h2>
+          </div>
+          <img src="Profile Picture.jpeg" alt="Profile Picture">
+        </div>
+
+        <div class="contact-info">
+          <p class="para"><i class="fa-solid fa-phone"></i> Phone: <span id="phone">03432472050</span></p>
+          <p class="para"><i class="fa-solid fa-envelope"></i> Email: <span id="email">sakinabano4575@gmail.com</span></p>
+          <p class="para"><i class="fa-brands fa-linkedin"></i> LinkedIn: <span id="linkedin">sakinabano</span></p>
+        </div>
+      </section>
+
+      <!-- Objective -->
+      <section id="objectiveSec">
+        <h2 class="heading">Objective</h2>
+        <p class="contPara">Detail-oriented and motivated software developer with a strong foundation in HTML, CSS, JavaScript, and TypeScript. Passionate about building user-friendly web applications and enhancing code efficiency through clean and maintainable solutions. Eager to contribute to dynamic projects and collaborate with teams to deliver impactful results.</p>
+      </section>
+
+      <!-- Education -->
+      <section id="eduSec">
+        <h2 class="heading">Education:</h2>
+        <p class="contPara"><span id="degree"></span></p>
+        <p class="contPara"><span id="degree">A I & Web 3.0 & Metavers</span>, at <span id="university"> Governor House</span>, </span> <span id=> on going</span></p>
+        <p class="contPara"><span id="degree">M A. Mass Communication</span>, at <span id="university"> University of karachi</span>, </span> <span id= "gradeyear">2016</span></p>
+        <p class="contPara"><span id="degree">B Ed. Bachlor of Education</span>, at <span id="university"> Allama Iqbal University</span>, </span> <span id= "gradeyear">2015</span></p>
+      </section>
+
+      <!-- Skills -->
+      <section id="skillSec">
+        <h2 class="heading">Skills:</h2>
+        <ul>
+          <li><span id="skill2" class="contPara">TypeScript</span></li>
+          <li><span id="skill2" class="contPara">Java Script</span></li>
+          <li><span id="skill3" class="contPara">HTML & CSS</span></li>
+          <li><span id="skill4" class="contPara">Ms Offic, Ms Word & In page</span></li>
+          <li><span id="skill5" class="contPara">Various Accountng Packages and Internet</span></li>
+        </ul>
+      </section>
+
+      <!-- Work Experience -->
+      <section id="workExpSec" class="work-experience">
+        <h2 class="heading">Work Experience:</h2>
+        <p class="contPara"><span id="jobTitleExp">Remittance Incharges (Operations & Tresury Departments) </span> at <span id="company"> Habib Qatar Intl Exc </span>, <span id="startYear"> April 2010 </span>, <span id="endYear">Jan, 2017</span></p>
+        <p class="contPara"><span id="jobTitleExp">Accounts Officer (Accounts & admin) </span> at <span id="company"> Z & Z Packages (pvt) Ltd</span>, <span id="startYear">Feb 2009</span>, <span id="endYear"> March, 2010 </span></p>
+        <p class="contPara"><span id="jobTitleExp">Accounts Assistant (Accounts & Finance) </span> at <span id="company"> Pakistan Cargo Services (pvt) Ltd</span>, <span id="startYear">August 2003</span>, <span id="endYear"> Dec, 2008 </span></p>
+      </section>
+    </div>
+
+    <div id="btnDiv">
+      <h3>Toggle Sections</h3>
+      <div class="sp">
+        <button id="ObjectiveBtn" class="btn" data-target="objective">Objective</button>
+        <button id="EducationBtn" class="btn" data-target="education">Education</button>
+        <button id="SkillsBtn" class="btn" data-target="skills">Skills</button>
+        <button id="WorkExpBtn" class="btn" data-target="workExperience">Work Experience</button>
+      </div>
+    </div>
+  </body>
+  <script src="staticResume.js"></script>
+</html>
